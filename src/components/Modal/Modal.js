@@ -139,6 +139,10 @@ class Modal extends Component<Props, State> {
     const { onClose } = this.props;
     const { isFullscreen } = this.state;
 
+    if (isClosing) {
+      return;
+    }
+
     this.setState({ isClosing: true });
 
     // force exit fullscreen mode on close
