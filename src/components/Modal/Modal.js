@@ -137,7 +137,7 @@ class Modal extends Component<Props, State> {
   };
   handleClose = (event: MouseOrKeyboardEvent) => {
     const { onClose } = this.props;
-    const { isFullscreen } = this.state;
+    const { isFullscreen, isClosing } = this.state;
 
     if (isClosing) {
       return;
