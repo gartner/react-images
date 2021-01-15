@@ -94,7 +94,7 @@ export const footerCaptionCSS = () => ({});
 
 export const FooterCaption = (props: ViewType) => {
   const { currentView, getStyles, isFullscreen, isModal } = props;
-  const { caption } = currentView;
+  const { caption } = currentView ? currentView : {};
   const state = { isFullscreen, isModal };
 
   return (

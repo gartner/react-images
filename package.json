@@ -1,6 +1,6 @@
 {
-  "name": "react-images",
-  "version": "1.1.7",
+  "name": "@palustris/react-images",
+  "version": "1.1.8",
   "description": "A mobile-friendly, highly customizable, carousel component for displaying media in ReactJS",
   "main": "lib/index.js",
   "jsnext:main": "dist/react-images.es.js",
@@ -8,10 +8,10 @@
   "types": "./index.d.ts",
   "author": "Joss Mackison",
   "repository": {
-    "url": "https://github.com/jossmac/react-images"
+    "url": "https://github.com/gartner/react-images"
   },
   "bugs": {
-    "url": "https://github.com/jossmac/react-images/issues"
+    "url": "https://github.com/gartner/react-images/issues"
   },
   "homepage": "https://jossmac.github.io/react-images/",
   "license": "MIT",
@@ -77,8 +77,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
-    "react": "^15.3.0 || ^16.2.0",
-    "react-dom": "^15.3.0 || ^16.2.0"
+    "react": "^15.3.0 || ^16.2.0 || ^17.0.0",
+    "react-dom": "^15.3.0 || ^16.2.0 || ^17.0.0"
   },
   "scripts": {
     "build": "nps build",
