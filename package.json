@@ -1,6 +1,6 @@
 {
   "name": "@palustris/react-images",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A mobile-friendly, highly customizable, carousel component for displaying media in ReactJS",
   "main": "lib/index.js",
   "jsnext:main": "dist/react-images.es.js",
@@ -71,7 +71,7 @@
     "html-react-parser": "^1.2.1",
     "raf-schd": "^2.1.2",
     "react-focus-on": "^3.3.0",
-    "react-full-screen": "^0.3.2-0",
+    "react-full-screen": "^0.2.5",
     "react-transition-group": "^4.4.1",
     "react-view-pager": "^0.6.0"
   },
